@@ -1,4 +1,4 @@
-
+<?php
 require_once './zip.php';
 header("Content-type:text/html;charset=utf-8");
 //$periodsDate=$_POST['periodsDate'];
@@ -25,6 +25,3 @@ header("Content-type:text/html;charset=utf-8");
  }
  
  echo json_encode($result);
-————————————————
-版权声明：本文为CSDN博主「ZzyYe」的原创文章，遵循 CC 4.0 BY-SA 版权协议，转载请附上原文出处链接及本声明。
-原文链接：https://blog.csdn.net/zzy_bug/article/details/78717340
